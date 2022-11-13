@@ -5,6 +5,23 @@
 }
 #searchBox {
     width: 350px;
-    margin-top: 2 a0px;
+    margin-top: 20px;
     margin-left: 20px;
+}
+
+.card {
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.samll {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
