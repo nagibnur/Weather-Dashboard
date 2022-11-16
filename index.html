@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="text-bg-primary p-3 header">weather dashboard</div>
+    <div id="currentDate-container" class="card"></div>
+    <div id="card-Container" class="card"></div>
 
     <div id="searchBox">
-        <h3>Search for a city:</h3>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2 input" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+      <h3>Search for a city:</h3>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2 input"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-        <div  id="card" class="card">
-            <ul>
-                <li class="li0"></li>
-                <img src="" class="li1">
-                <li class="li2">temp: </li>
-                <li class="li3">description: </li>
-                <li class="li4">windSpeed: </li>
-                <li class="li5">humidity: </li>
-            </ul>
-        </div>
-        <br>
-        <div id="smallCards" class="card">
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-           
-        </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
